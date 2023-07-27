@@ -16,7 +16,8 @@
 
 <body>
   <header>
-    <nav>
+
+    <!-- <nav>
       <img src="./assets/photos/choosetecs v1 test png.png" alt="EOD Logo">
       <ul>
         <li><a href="#Snippet 1">Home</a></li>
@@ -26,7 +27,80 @@
         <li><a href="#Snippet 1">Resources</a></l>
         <li><a href="#Snippet 1">About Us</a></li>
       </ul>
+    </nav> -->
+
+    <nav class="navbar" role="navigation" aria-label="main navigation">
+      <div class="navbar-brand">
+        <a class="navbar-item" href="#home">
+          <img src="./assets/photos/choosetecs v1 test png.png" width="100%" height="33">
+        </a>
+    
+        <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </a>
+      </div>
+    
+      <div id="navbarBasicExample" class="navbar-menu">
+        <div class="navbar-start">
+          <a class="navbar-item">
+            Home
+          </a>
+    
+          <div class="navbar-item has-dropdown is-hoverable">
+            <a class="navbar-link">More</a>
+    
+            <div class="navbar-dropdown">
+              <a class="navbar-item">
+                Service Areas
+              </a>
+              <a class="navbar-item">
+                Providers
+              </a>
+              <a class="navbar-item">
+                Utilities
+              </a>
+              <a class="navbar-item">
+                Resources
+              </a>
+              <a class="navbar-item">
+                About Us
+              </a>
+              <hr class="navbar-divider">
+              <a class="navbar-item">
+                Report an issue
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="navbar-end">
+          <div class="navbar-item">
+            <div class="buttons">
+              <a class="button is-info">
+                <strong>Sign up</strong>
+              </a>
+              <a class="button is-light">
+                Log in
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
     </nav>
+    
+    <!-- <section class="hero is-light">
+      <div class="hero-body">
+        <p class="title">
+          Documentation
+        </p>
+        <p class="subtitle">
+          Everything you need to <strong>create a website</strong> with Bulma
+        </p>
+      </div>
+    </section> -->
+
   </header>
 
   <div class="main-wrapper">
