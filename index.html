@@ -12,6 +12,15 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
@@ -29,61 +38,75 @@
       </ul>
     </nav> -->
 
-    <nav class="navbar" role="navigation" aria-label="main navigation">
+    <nav class="navbar is-transparent">
       <div class="navbar-brand">
-        <a class="navbar-item" href="#home">
-          <img src="./assets/photos/choosetecs v1 test png.png" width="100%" height="33">
+        <a class="navbar-item" href="https://bulma.io">
+          <img src="./assets/photos/choosetecs v1 test png.png" alt="Bulma: a modern CSS framework based on Flexbox" width="160" height="28">
         </a>
-    
-        <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
-          <span aria-hidden="true"></span>
-          <span aria-hidden="true"></span>
-          <span aria-hidden="true"></span>
-        </a>
+        <div class="navbar-burger" data-target="navbarExampleTransparentExample">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
       </div>
     
-      <div id="navbarBasicExample" class="navbar-menu">
+      <div id="navbarExampleTransparentExample" class="navbar-menu">
         <div class="navbar-start">
-          <a class="navbar-item">
+          <a class="navbar-item" href="https://bulma.io/">
             Home
           </a>
-    
           <div class="navbar-item has-dropdown is-hoverable">
-            <a class="navbar-link">More</a>
-    
-            <div class="navbar-dropdown">
-              <a class="navbar-item">
-                Service Areas
+            <a class="navbar-link" href="https://bulma.io/documentation/overview/start/">
+              Docs
+            </a>
+            <div class="navbar-dropdown is-boxed">
+              <a class="navbar-item" href="https://bulma.io/documentation/overview/start/">
+                Overview
               </a>
-              <a class="navbar-item">
-                Providers
+              <a class="navbar-item" href="https://bulma.io/documentation/overview/modifiers/">
+                Modifiers
               </a>
-              <a class="navbar-item">
-                Utilities
+              <a class="navbar-item" href="https://bulma.io/documentation/columns/basics/">
+                Columns
               </a>
-              <a class="navbar-item">
-                Resources
+              <a class="navbar-item" href="https://bulma.io/documentation/layout/container/">
+                Layout
               </a>
-              <a class="navbar-item">
-                About Us
+              <a class="navbar-item" href="https://bulma.io/documentation/form/general/">
+                Form
               </a>
               <hr class="navbar-divider">
-              <a class="navbar-item">
-                Report an issue
+              <a class="navbar-item" href="https://bulma.io/documentation/elements/box/">
+                Elements
+              </a>
+              <a class="navbar-item is-active" href="https://bulma.io/documentation/components/breadcrumb/">
+                Components
               </a>
             </div>
           </div>
         </div>
-
+    
         <div class="navbar-end">
           <div class="navbar-item">
-            <div class="buttons">
-              <a class="button is-info">
-                <strong>Sign up</strong>
-              </a>
-              <a class="button is-light">
-                Log in
-              </a>
+            <div class="field is-grouped">
+              <p class="control">
+                <a class="bd-tw-button button" data-social-network="Twitter" data-social-action="tweet" data-social-target="https://bulma.io" target="_blank" href="https://twitter.com/intent/tweet?text=Bulma: a modern CSS framework based on Flexbox&amp;hashtags=bulmaio&amp;url=https://bulma.io&amp;via=jgthms">
+                  <span class="icon">
+                    <i class="fab fa-twitter"></i>
+                  </span>
+                  <span>
+                    Tweet
+                  </span>
+                </a>
+              </p>
+              <p class="control">
+                <a class="button is-primary" href="https://github.com/jgthms/bulma/releases/download/0.9.4/bulma-0.9.4.zip">
+                  <span class="icon">
+                    <i class="fas fa-download"></i>
+                  </span>
+                  <span>Download</span>
+                </a>
+              </p>
             </div>
           </div>
         </div>
@@ -106,8 +129,7 @@
   <div class="main-wrapper">
     <div class="index-head">
       <div class="head-index">
-        <h1 class="is-size-1" style="text-align: center;" class="mgt-large">First header</h1>
-        <h2 class="is-size-3" style="text-align: center;" class="mgt-large">First header</h2>
+        <h1 class="is-size-3" style="text-align: center;" class="mgt-large">We Find The Best Energy & Solar Rates For You</h1>
         <div class="zipinput">
           <div class="control">
             <input class="input is-focused" type="text" placeholder="Focused input" style="width: 250px;">
